@@ -77,8 +77,15 @@ const Home = () => (
 				</div>
 			</nav>
 			<main className="main-app">
-				<h1>Cursos</h1>
+				<div className="title-main">
+					<h1>Cursos</h1>
+				</div>
 				<div className="contenedor-cursos">
+					<CursoCard />
+					<CursoCard />
+					<CursoCard />
+					<CursoCard />
+					<CursoCard />
 					<CursoCard />
 					<CursoCard />
 					<CursoCard />
