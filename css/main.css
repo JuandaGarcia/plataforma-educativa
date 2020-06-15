@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	cursor: url('/img/cursor-pointer.png'), pointer;
+}
+
+button {
+	cursor: url('/img/cursor-pointer.png'), pointer;
+}
+
+body {
+	cursor: url('/img/cursor.png'), auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+	cursor: text;
+}
+a h1,
+a h2,
+a h3,
+a h4,
+a h5,
+a h6,
+a p,
+a span {
+	cursor: url('/img/cursor-pointer.png'), pointer;
+}
+
+button h1,
+button h2,
+button h3,
+button h4,
+button h5,
+button h6,
+button p,
+button span {
+	cursor: url('/img/cursor-pointer.png'), pointer;
+}
+
+::selection {
+	background-color: #9733ee;
+	color: white;
+}
+
+::-webkit-scrollbar {
+	width: 0.6em;
+	background: none;
+}
+
+::-webkit-scrollbar-track {
+	background: none;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgb(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
