@@ -1,0 +1,88 @@
+.curso-card {
+	border-radius: 2em;
+	height: 30em;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+	box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+
+.curso-card:hover {
+	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+	transform: translate(0, -0.6em);
+}
+
+.curso-card .contend-card {
+	z-index: 10;
+	position: absolute;
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 2em;
+	display: grid;
+	grid-template-rows: auto 4fr 1fr;
+}
+
+.curso-card .contend-card div h2 {
+	font-size: 1.5em;
+}
+
+.curso-card .photo-card {
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	pointer-events: none;
+}
+
+.type-opcions {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.type-opcions div {
+	width: auto;
+	background-color: #5073ff;
+	padding: 0.5em 1em;
+	border-radius: 25px;
+	font-weight: 500;
+}
+
+.type-opcions button {
+	height: 2em;
+	width: 2em;
+	background: none;
+	border: none;
+	outline: none;
+}
+
+.type-opcions button img {
+	width: 100%;
+}
+
+.title-card {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+}
+
+.title-card div {
+	margin-top: 0.5em;
+}
+
+.ver-curso {
+	display: flex;
+	align-items: flex-end;
+}
+
+.gradient-card {
+	background: linear-gradient(180deg, transparent 0%, #000000 100%);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+}

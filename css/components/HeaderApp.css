@@ -1,0 +1,66 @@
+.header-app {
+	grid-area: header;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-areas: 'input none buttons';
+	padding: 2.5em 10em;
+	grid-gap: 5em;
+	position: sticky;
+	top: 0;
+	background: white;
+	z-index: 100;
+}
+
+.search-header {
+	grid-area: input;
+	display: grid;
+	grid-template-columns: 1fr 8fr;
+	align-items: center;
+	border-bottom: 2px solid #f5f5f5;
+}
+
+.search-header input {
+	border: none;
+	outline: none;
+	font-size: 1.1em;
+}
+
+.btns-header {
+	display: flex;
+	grid-area: buttons;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.btns-header button {
+	outline: none;
+	border: none;
+}
+
+.btns-header button:nth-child(1),
+.btns-header button:nth-child(2) {
+	width: 2em;
+	height: 2em;
+	background: none;
+	position: relative;
+}
+
+.circle-nofification {
+	position: absolute;
+	height: 0.9em;
+	width: 0.9em;
+	border-radius: 50%;
+	background: rgba(246, 81, 61);
+	top: 0;
+	right: 0;
+}
+
+.btns-header button:last-child {
+	width: 40%;
+	height: 3em;
+	border-radius: 15px;
+	border: 2px solid #f5f5f5;
+	background: none;
+	font-weight: bold;
+}

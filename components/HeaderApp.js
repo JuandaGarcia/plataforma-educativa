@@ -1,8 +1,10 @@
+import '../css/components/HeaderApp.css'
+
 const HeaderApp = () => {
 	return (
 		<header className="header-app">
 			<div className="search-header">
-				<img src="/img/icons/search.svg" alt="" />
+				<img src="/img/icons/search.svg" alt="Busqueda" />
 				<input placeholder="Buscar curso" type="text" />
 			</div>
 			<div className="btns-header">
@@ -11,7 +13,7 @@ const HeaderApp = () => {
 					<div className="circle-nofification"></div>
 				</button>
 				<button>
-					<img src="/img/icons/task.svg" alt="Task" />
+					<img src="/img/icons/task.svg" alt="Tareas Pendientes" />
 				</button>
 				<button>Nuevo curso</button>
 			</div>

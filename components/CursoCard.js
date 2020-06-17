@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import '../css/components/CursoCard.css'
 
 const CursoCard = () => {
 	return (

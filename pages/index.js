@@ -1,8 +1,8 @@
 import CursoCard from '../components/CursoCard'
-import '../css/main.css'
-import '../css/app.css'
 import HeadApp from '../components/HeadApp'
 import LayoutApp from '../components/LayoutApp'
+import '../css/main.css'
+import '../css/app.css'
 
 const Home = () => (
 	<>
