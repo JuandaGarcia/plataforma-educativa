@@ -11,9 +11,6 @@ const CursoCard = () => {
 							<div>
 								<span>Programación</span>
 							</div>
-							<button>
-								<img src="/img/icons/points.svg" alt="opciones" />
-							</button>
 						</div>
 						<div className="title-card">
 							<h2>Programación Web</h2>
@@ -23,13 +20,18 @@ const CursoCard = () => {
 						</div>
 						<div className="ver-curso">
 							<span>Ver curso</span>
+							<img
+								className="ver-curso__img"
+								src="/img/icons/arrow-right.svg"
+								alt="→"
+							/>
 						</div>
 					</div>
 					<div className="gradient-card"></div>
 					<img
 						className="photo-card"
-						src="https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80"
-						alt=""
+						src="https://images.unsplash.com/photo-1594009568931-94fd1c49e38c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80"
+						alt="Course image"
 					/>
 				</div>
 			</a>

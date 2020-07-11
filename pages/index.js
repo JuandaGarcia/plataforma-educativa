@@ -3,6 +3,7 @@ import HeadApp from '../components/HeadApp'
 import LayoutApp from '../components/LayoutApp'
 import '../css/main.css'
 import '../css/app.css'
+import '../css/animations.css'
 
 const Home = () => (
 	<>
@@ -12,7 +13,17 @@ const Home = () => (
 				<div className="title-main">
 					<h1>Cursos</h1>
 				</div>
-				<div className="contenedor-cursos">
+				<div className="contenedor-cursos fadeIn">
+					<CursoCard />
+					<CursoCard />
+					<CursoCard />
+					<CursoCard />
+					<CursoCard />
+					<CursoCard />
+					<CursoCard />
+					<CursoCard />
+					<CursoCard />
+					<CursoCard />
 					<CursoCard />
 					<CursoCard />
 					<CursoCard />

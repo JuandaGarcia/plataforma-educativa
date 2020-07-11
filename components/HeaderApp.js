@@ -3,10 +3,10 @@ import '../css/components/HeaderApp.css'
 const HeaderApp = () => {
 	return (
 		<header className="header-app">
-			<div className="search-header">
+			<label className="search-header">
 				<img src="/img/icons/search.svg" alt="Busqueda" />
 				<input placeholder="Buscar curso" type="text" />
-			</div>
+			</label>
 			<div className="btns-header">
 				<button>
 					<img src="/img/icons/bell.svg" alt="Notifications" />

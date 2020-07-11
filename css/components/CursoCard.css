@@ -1,6 +1,6 @@
 .curso-card {
-	border-radius: 2em;
-	height: 30em;
+	border-radius: 1em;
+	height: 14em;
 	position: relative;
 	overflow: hidden;
 	transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
@@ -8,7 +8,7 @@
 }
 
 .curso-card:hover {
-	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.2);
 	transform: translate(0, -0.6em);
 }
 
@@ -40,7 +40,6 @@
 .type-opcions {
 	display: flex;
 	width: 100%;
-	justify-content: space-between;
 	align-items: center;
 }
 
@@ -49,6 +48,7 @@
 	background-color: #5073ff;
 	padding: 0.5em 1em;
 	border-radius: 25px;
+	font-size: 0.8em;
 	font-weight: 500;
 }
 
@@ -75,8 +75,15 @@
 }
 
 .ver-curso {
+	margin-top: auto;
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.ver-curso__img {
+	width: 1.2em;
+	height: 1.2em;
 }
 
 .gradient-card {
