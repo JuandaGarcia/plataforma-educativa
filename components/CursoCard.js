@@ -3,7 +3,7 @@ import '../css/components/CursoCard.css'
 
 const CursoCard = () => {
 	return (
-		<Link href="/">
+		<Link href="/course/[id]" as="/course/1">
 			<a>
 				<div className="curso-card">
 					<div className="contend-card">

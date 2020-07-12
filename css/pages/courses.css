@@ -1,0 +1,12 @@
+.main-courses__title {
+	font-size: 3.5em;
+}
+
+.contenedor-cursos {
+	margin-top: 5%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
+	grid-gap: 3em;
+	width: 100%;
+	padding-bottom: 4em;
+}
