@@ -1,5 +1,6 @@
 import HeadApp from '../../components/HeadApp'
 import LayoutApp from '../../components/LayoutApp'
+import ClassItem from '../../components/ClassItem'
 import '../../css/main.css'
 import '../../css/app.css'
 import '../../css/animations.css'
@@ -23,7 +24,23 @@ const Home = () => (
 							alt=""
 						/>
 					</section>
-					<section className="class-list"></section>
+					<section className="class-list">
+						<ClassItem />
+						<ClassItem />
+						<ClassItem />
+						<ClassItem />
+						<ClassItem />
+						<ClassItem />
+						<ClassItem />
+						<ClassItem />
+						<ClassItem />
+						<ClassItem />
+						<ClassItem />
+						<ClassItem />
+						<ClassItem />
+						<ClassItem />
+						<ClassItem />
+					</section>
 					<section className="info-course"></section>
 				</div>
 			</main>
