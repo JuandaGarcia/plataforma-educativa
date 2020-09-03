@@ -17,12 +17,14 @@
 	grid-template-columns: 1fr 8fr;
 	align-items: center;
 	border-bottom: 2px solid #f5f5f5;
+	opacity: 0.5;
 }
 
 .search-header input {
 	border: none;
 	outline: none;
 	font-size: 1.1em;
+	font-weight: 500;
 }
 
 .btns-header {

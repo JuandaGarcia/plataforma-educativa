@@ -14,3 +14,12 @@
 	padding: 0 10em;
 	padding-top: 1em;
 }
+
+@media screen and (max-width: 1400px) {
+	body {
+		font-size: 12px;
+	}
+	.container-app {
+		grid-template-columns: 1.1fr 5fr;
+	}
+}
