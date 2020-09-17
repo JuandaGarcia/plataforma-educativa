@@ -7,7 +7,7 @@ const NavPanel = () => {
 		<nav className="nav-app">
 			<Link href="/">
 				<a className="logo">
-					<img src="/img/logo.png" alt="Logo" />
+					<img src="/img/logo.svg" alt="Logo" />
 				</a>
 			</Link>
 			<ul>
